@@ -3,16 +3,6 @@
 ---
 
 Proyecto para practicar y aprender Java a nivel empresarial <br>
-
-<br>
-
-
-
-## Temario
-
----
-
-
 <br>
 
 ### Tecnologias
@@ -25,7 +15,7 @@ Proyecto para practicar y aprender Java a nivel empresarial <br>
 ## Ramas
 
 ---
-- Master - Central  
+- Master - Central
 - Inicial - Temas Básicos
 - Estructuras de datos - Utilidades para trabajar con datos
 - Java Moderno - Nuevas utilidades de Java
@@ -38,20 +28,10 @@ Proyecto para practicar y aprender Java a nivel empresarial <br>
 
 ---
 
-Inicial - 0.1.0 Se crean primeras temas.  
-Master - 0.0.1 Se crea proyecto <br>
+Inicial - 0.0.1 Se crea Rama  
+Estructuras de datos - 0.0.1  Se crea Rama  
+Java Moderno - 0.0.1  Se crea Rama  
+Inicial - 0.0.1  Se crea   
+Master - 0.0.1 Se genera estrucutra
 
-#### Fixes
-
----
-1.2.2  <br>
-1.2.1  <br>
-1.2.0 <br>
-1.1.2  <br>
-1.1.1  <br>
-1.1.0 <br>
-1.0.1  <br>
-1.0.0  <br>
-0.1.1  <br>
-0.1.0 Se implementa solución.  
-0.0.1 Se crea proyecto .
+<br>
