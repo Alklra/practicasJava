@@ -164,6 +164,7 @@ public class Perro extends Animal {
 
 <br>
 
+
 ![polimorfismo](../img/polimorfismo.png)
 
 <br>
@@ -202,10 +203,6 @@ public class Coche implements Vehiculo {
 <br>
 
 En este ejemplo, Vehiculo es una interfaz que contiene dos campos (matricula y maxVel), dos métodos (arrancar y detener) y un método predeterminado (claxon). Para utilizar esta interfaz, una clase debe implementarla usando la palabra clave implements
-
-
-- El polimorfismo se refiere a la capacidad de un objeto para tomar muchas formas. En Java, esto se logra a través de la herencia y la implementación de interfaces. Por ejemplo, si tienes una referencia a un objeto Animal, podría referirse a un objeto de cualquier subclase de Animal, como Perro o Gato. Esto permite tratar a diferentes tipos de objetos de manera uniforme.
-
 <br>
 
 <br>
