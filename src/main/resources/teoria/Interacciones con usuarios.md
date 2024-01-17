@@ -19,8 +19,7 @@ Las formas de interacción de usuarios en los programas de java son diversas y d
 ---
 1. Java Swing
 
-<pre>
-       <code>
+```java
    public class EjemploSwing {
        public static void main(String[] args) {
            JFrame frame = new JFrame("Mi Ventana");
@@ -31,14 +30,12 @@ Las formas de interacción de usuarios en los programas de java son diversas y d
            frame.setVisible(true);
       }
    }
-        </code>
-</pre>
+```
 
    
 2. JavaFX
 
-<pre>
-       <code>
+```java
    import javafx.application.Application;
    import javafx.scene.Scene;
    import javafx.scene.control.Button;
@@ -63,14 +60,11 @@ Las formas de interacción de usuarios en los programas de java son diversas y d
        }
    }
 
-        </code>
-</pre>
-
+```
 
 3. System.in 
 
-<pre>
-       <code>
+```java
    public class EjemploSystemIn {
        public static void main(String[] args) {
            Scanner scanner = new Scanner(System.in);
@@ -79,43 +73,38 @@ Las formas de interacción de usuarios en los programas de java son diversas y d
            System.out.println("Ingresaste: " + input);
        }
    }
-        </code>
-</pre>
+```
 
 
 4. System.Out  
 
-<pre>
-       <code>
+```java
    public class EjemploSystemOut {
        public static void main(String[] args) {
            System.out.println("¡Hola, mundo!");
        }
    }
-        </code>
-</pre>
-
+```
 
 5. Java.io  
 
-<pre>
-       <code>
+```java
       public class Lector {
    
-      public static void main(String[] args) throws IOException {
-         BufferedReader reader = new BufferedReader(new FileReader("archivo.txt"));
-         String linea;
-         while ((linea = reader.readLine()) != null) {
-         System.out.println(linea);
+         public static void main(String[] args) throws IOException {
+             BufferedReader reader = new BufferedReader(new FileReader("archivo.txt"));
+             String linea;
+             while ((linea = reader.readLine()) != null) {
+                 System.out.println(linea);
+             }
+             reader.close();
+         }
       }
-      reader.close();
-        </code>
-</pre>
+```
 
 6. Java.nio 
 
-<pre>
-   <code>
+```java
    public class LectorNIO {
       public static void main(String[] args) throws IOException {
          Path ruta = Paths.get("archivo.txt");
@@ -125,8 +114,7 @@ Las formas de interacción de usuarios en los programas de java son diversas y d
          }
       }
    }
-   </code>
-</pre>
+```
 
 <br>
 
