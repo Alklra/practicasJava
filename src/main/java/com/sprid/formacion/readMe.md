@@ -16,9 +16,9 @@ Rama para mostrar las caracterísitcas básicas de Java
    2.1 Paquetes   
    2.2 Métodos  
    2.3 Sobre escritura  
-3. Patrones de diseño
-   3.1 Abstracción
-   3.2 Factory
+3. Patrones de diseño  
+   3.1 Abstracción  
+   3.2 Factory  
    3.3 Command
 4. Excepciones
    

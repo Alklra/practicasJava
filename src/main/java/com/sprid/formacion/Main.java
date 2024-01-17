@@ -1,10 +1,17 @@
 package com.sprid.formacion;
 
+import java.util.Scanner;
+
+
 public class Main {
+
     public static void main(String[] args) {
+        new InteraccionUsuario();
 
-        String saludo = "Bienvenidos a las prácticas";
-        System.out.println(saludo);
-
+        // Interacción de consola
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Por favor, introduce algo de texto:");
+        String input = scanner.nextLine();
+        System.out.println("Ingresaste: " + input);
     }
 }
