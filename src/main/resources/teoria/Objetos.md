@@ -165,7 +165,7 @@ public class Perro extends Animal {
 <br>
 
 
-![polimorfismo](../img/polimorfismo.png)
+![polimorfismo](../img/polimorfismo2.png)
 
 <br>
 
